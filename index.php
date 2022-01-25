@@ -15,6 +15,6 @@ echo $_COOKIE['username'];
  * 5. Créez une page bio.php et tentez d'afficher le cookie username sur cette page.
  */
 // TODO Votre code ici.
-setcookie('username', 'Decroix', time() + 3600 * 48 + 3600 + 3600, '/localhost');
+setcookie('username', 'Decroix', time() + 3600 * 48 + 3600 + 3600, '/', 'localhost', true, true);
 echo $_COOKIE['username'];?>
 <a href="bio.php">CLIQUE</a>
